@@ -1,0 +1,92 @@
+===== Simulator configuration =====
+  BLOCKSIZE:                  16
+  L1_SIZE:                  1024
+  L1_ASSOC:                    1
+  VC_NUM_BLOCKS:               0
+  L2_SIZE:                     0
+  L2_ASSOC:                    0
+  trace_file:      gcc_trace.txt
+
+===== L1 contents =====
+  set   0:   1000c5  
+  set   1:   100147 D
+  set   2:   100147 D
+  set   3:   100147 D
+  set   4:   1000c5  
+  set   5:   1000c5  
+  set   6:   100147 D
+  set   7:   1000c5  
+  set   8:   1000c5  
+  set   9:   1000bd D
+  set  10:   1000bd  
+  set  11:   1000c5  
+  set  12:   1000d9 D
+  set  13:   1000c5  
+  set  14:   1000d6  
+  set  15:   1000d9 D
+  set  16:   1ec0ce D
+  set  17:   10007d  
+  set  18:   10007d  
+  set  19:   1000d9 D
+  set  20:   10007d  
+  set  21:   10010a  
+  set  22:   1000d5  
+  set  23:   10009d  
+  set  24:   1000f9  
+  set  25:   1000d5  
+  set  26:   100146 D
+  set  27:   10009d  
+  set  28:   10009d  
+  set  29:   10009d  
+  set  30:   100146 D
+  set  31:   1000fc D
+  set  32:   100146 D
+  set  33:   100146 D
+  set  34:   1000e0 D
+  set  35:   100146 D
+  set  36:   100111 D
+  set  37:   1000e0  
+  set  38:   100146 D
+  set  39:   100146 D
+  set  40:   1000c7 D
+  set  41:   1000c7  
+  set  42:   100146 D
+  set  43:   100004  
+  set  44:   100004  
+  set  45:   100004  
+  set  46:   100004  
+  set  47:   100004  
+  set  48:   100004  
+  set  49:   100004  
+  set  50:   100004  
+  set  51:   100004  
+  set  52:   100004  
+  set  53:   100004  
+  set  54:   100004  
+  set  55:   1000d5  
+  set  56:   1000c7 D
+  set  57:   1000d5  
+  set  58:   100146 D
+  set  59:   100146 D
+  set  60:   100146 D
+  set  61:   1000c6 D
+  set  62:   1000c6 D
+  set  63:   1000c6 D
+
+===== Simulation results =====
+  a. number of L1 reads:                       63640
+  b. number of L1 read misses:                 10728
+  c. number of L1 writes:                      36360
+  d. number of L1 write misses:                 8493
+  e. number of swap requests:                      0
+  f. swap request rate:                       0.0000
+  g. number of swaps:                              0
+  h. combined L1+VC miss rate:                0.1922
+  i. number writebacks from L1/VC:              9802
+  j. number of L2 reads:                           0
+  k. number of L2 read misses:                     0
+  l. number of L2 writes:                          0
+  m. number of L2 write misses:                    0
+  n. L2 miss rate:                            0.0000
+  o. number of writebacks from L2:                 0
+  p. total memory traffic:                     29023

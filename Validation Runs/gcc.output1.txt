@@ -1,0 +1,63 @@
+===== Simulator configuration =====
+  BLOCKSIZE:                  16
+  L1_SIZE:                  1024
+  L1_ASSOC:                    2
+  VC_NUM_BLOCKS:              16
+  L2_SIZE:                     0
+  L2_ASSOC:                    0
+  trace_file:      gcc_trace.txt
+
+===== L1 contents =====
+  set   0:   20028d D  20018a  
+  set   1:   20028d D  20028e D
+  set   2:   2001c1 D  200153 D
+  set   3:   20028d D  20013b  
+  set   4:   200223 D  20028d D
+  set   5:   2001c1    200149  
+  set   6:   20028d D  20028e D
+  set   7:   20018a    2001ac D
+  set   8:   20018f D  20018a  
+  set   9:   20018f D  2000f9  
+  set  10:   20017a    2000fa  
+  set  11:   200009    20018a  
+  set  12:   200009    20028d D
+  set  13:   200009    2000f9  
+  set  14:   200009    2001ac  
+  set  15:   200009    2001b2 D
+  set  16:   200009    3d819c D
+  set  17:   200009    20017b D
+  set  18:   200009    2000fa  
+  set  19:   200009    2001b2 D
+  set  20:   200009    2000fa  
+  set  21:   200009    200214  
+  set  22:   200009    20023f  
+  set  23:   2001ab    20013a  
+  set  24:   20018f D  2001f2  
+  set  25:   2001aa    2001ab  
+  set  26:   20028d D  20018d D
+  set  27:   20028d D  20018d D
+  set  28:   20013a    20028d D
+  set  29:   20013a    20018d D
+  set  30:   20028c D  20018d D
+  set  31:   2001f8 D  20028c D
+
+===== VC contents =====
+  set   0:  4003556   40047f5   40047f4   40047f3   4001f32   4001f51   4001f30   40047ef   4001f4e   400314d   40047ec   4004824   4003824   4003555   40051ca D 400275f  
+
+===== Simulation results =====
+  a. number of L1 reads:                       63640
+  b. number of L1 read misses:                  8322
+  c. number of L1 writes:                      36360
+  d. number of L1 write misses:                 7680
+  e. number of swap requests:                  15938
+  f. swap request rate:                       0.1594
+  g. number of swaps:                           2859
+  h. combined L1+VC miss rate:                0.1314
+  i. number writebacks from L1/VC:              7598
+  j. number of L2 reads:                           0
+  k. number of L2 read misses:                     0
+  l. number of L2 writes:                          0
+  m. number of L2 write misses:                    0
+  n. L2 miss rate:                            0.0000
+  o. number of writebacks from L2:                 0
+  p. total memory traffic:                     20741
